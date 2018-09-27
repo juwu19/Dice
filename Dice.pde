@@ -1,7 +1,7 @@
 int Nr;
 void setup(){
   noLoop();
-  size(1050,1000);
+  size(1050,1050);
   }
 void draw(){
   Nr = 0;
