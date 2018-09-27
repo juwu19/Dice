@@ -1,13 +1,13 @@
 int Nr;
 void setup(){
   noLoop();
-  size(1260,1200);
+  size(1050,1000);
   }
 void draw(){
   Nr = 0;
   background(230);
-  for(int y = 0; y < 1200; y += 210){
-    for(int x = 0; x < 1260; x += 210){
+  for(int y = 0; y < 1000; y += 210){
+    for(int x = 0; x < 1050; x += 210){
       Die Kev = new Die(x,y);
       Kev.show();
     }
