@@ -11,7 +11,6 @@ void draw(){
       Die Kev = new Die(x,y);
       Kev.show();
     }
-    System.out.println(Nr);
   }
   }
 void mousePressed(){
@@ -32,7 +31,6 @@ class Die{
     fill((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
     rect(myX,myY,200,200);
     fill(0,0,0);
-    System.out.println(r);
     if(r == 1){
       ellipse(myX+100,myY+100,40,40);
       Nr = Nr + 1;
