@@ -12,8 +12,6 @@ void draw(){
       Kev.show();
     }
   }
-  textSize(50);
-  text("Number of dots: " + Nr, 200,1050);
   }
 void mousePressed(){
   redraw();
