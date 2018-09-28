@@ -13,7 +13,7 @@ void draw(){
     }
   }
   textSize(50);
-  text("Number of dots: " + Nr, 200,1050);
+  text("Number of dots: " + Nr, 300,1100);
   }
 void mousePressed(){
   redraw();
