@@ -1,7 +1,7 @@
 int Nr;
 void setup(){
   noLoop();
-  size(1050,1050);
+  size(1050,1200);
   }
 void draw(){
   Nr = 0;
@@ -12,6 +12,8 @@ void draw(){
       Kev.show();
     }
   }
+  textSize(50);
+  text("Number of dots: " + Nr, 200,1050);
   }
 void mousePressed(){
   redraw();
@@ -31,6 +33,7 @@ class Die{
     fill((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
     rect(myX,myY,200,200);
     fill(0,0,0);
+    System.out.println(r);
     if(r == 1){
       ellipse(myX+100,myY+100,40,40);
       Nr = Nr + 1;
